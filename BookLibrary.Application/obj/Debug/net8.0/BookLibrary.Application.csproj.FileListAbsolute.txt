@@ -1,0 +1,12 @@
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\bin\Debug\net8.0\BookLibrary.Application.deps.json
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\bin\Debug\net8.0\BookLibrary.Application.dll
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\bin\Debug\net8.0\BookLibrary.Application.pdb
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibrary.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibrary.Application.AssemblyInfoInputs.cache
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibrary.Application.AssemblyInfo.cs
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibrary.Application.csproj.CoreCompileInputs.cache
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibrary.Application.sourcelink.json
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibrary.Application.dll
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\refint\BookLibrary.Application.dll
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibrary.Application.pdb
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\ref\BookLibrary.Application.dll

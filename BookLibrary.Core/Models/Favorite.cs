@@ -2,13 +2,16 @@
 {
     public class Favorite
     {
-        private Favorite(Guid userId, Guid groupId, Guid bookId)
+        private Favorite(int id, Guid userId, Guid groupId, Guid bookId)
         {
+            Id = id;
             UserId = userId;
             GroupId = groupId;
             BookId = bookId;
             CreatedAt = DateTime.Now;
         }
+
+        public int Id { get; }
 
         public Guid UserId { get; }
 
@@ -24,14 +27,14 @@
 
         public DateTime? CreatedAt { get; } = DateTime.Now;
 
-        public static (Favorite Favorite, string Error) Create(Guid userId, Guid groupId, Guid bookId)
+        public static (Favorite Favorite, string Error) Create(int id, Guid userId, Guid groupId, Guid bookId)
         {
             var error = string.Empty;
 
             if (userId == null) error = "User cannot be empty!";
             if (bookId == null) error = "Book cannot be empty!";
 
-            var favorite = new Favorite(userId, groupId, bookId);
+            var favorite = new Favorite(id, userId, groupId, bookId);
             return (favorite, error);
         }
     }

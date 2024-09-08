@@ -1,4 +1,4 @@
-using BookLibrary.Domain;
+using BookLibrary.Database;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookLibrary.API
