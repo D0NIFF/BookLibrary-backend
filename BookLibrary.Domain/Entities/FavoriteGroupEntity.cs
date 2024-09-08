@@ -10,6 +10,8 @@
 
         public UserEntity? User { get; set; }
 
+        public ICollection<FavoriteEntity>? Favorites { get; }
+
         public DateTime? CreatedAt { get; set; } = DateTime.Now;
         public DateTime? UpdatedAt { get; set; } = DateTime.Now;
     }

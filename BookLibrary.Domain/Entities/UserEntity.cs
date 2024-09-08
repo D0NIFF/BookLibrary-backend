@@ -10,6 +10,9 @@
 
         public string? PasswordHash { get; set; }
 
+        public ICollection<FavoriteGroupEntity>? FavoriteGroups { get; set; }
+        public ICollection<FavoriteEntity>? Favorites { get; set; }
+
         public DateTime? CreatedAt { get; set; } = DateTime.Now;
         public DateTime? UpdatedAt { get; set; } = DateTime.Now;
         public DateTime? DeletedAt { get; set; }

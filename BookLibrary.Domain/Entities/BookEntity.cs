@@ -16,6 +16,11 @@
 
         public BookCategoryEntity? Category { get; set; }
 
+        public ICollection<BookAuthorEntity>? Authors { get; set; }
+
+        public ICollection<FavoriteEntity>? Favorites { get; set; }
+
+
         public DateOnly ReleaseDate { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
