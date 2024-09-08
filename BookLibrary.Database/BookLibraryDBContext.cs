@@ -9,7 +9,7 @@ namespace BookLibrary.Database
         public BookLibraryDBContext(DbContextOptions<BookLibraryDBContext> options)
             : base(options)
         {
-
+            Database.EnsureCreated();
         }
 
         public DbSet<BookCategoryEntity> BookCategories { get; set; }

@@ -14,3 +14,5 @@ C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Database\obj\Debug\net8.0\B
 C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Database\obj\Debug\net8.0\refint\BookLibrary.Database.dll
 C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Database\obj\Debug\net8.0\BookLibrary.Database.pdb
 C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Database\obj\Debug\net8.0\ref\BookLibrary.Database.dll
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Database\bin\Debug\net8.0\BookLibrary.Database.runtimeconfig.json
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Database\obj\Debug\net8.0\BookLibrary.Database.genruntimeconfig.cache
