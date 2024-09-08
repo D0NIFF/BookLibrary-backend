@@ -20,7 +20,6 @@
 
         public ICollection<FavoriteEntity>? Favorites { get; set; }
 
-
         public DateOnly ReleaseDate { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;

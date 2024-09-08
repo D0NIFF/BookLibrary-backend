@@ -18,6 +18,10 @@ namespace BookLibrary.Database.Configurations
             builder.Property(b => b.LastName)
                 .HasMaxLength(BookCategory.MAX_NAME_LENGTH)
                 .IsRequired();
+
+            builder
+                .HasMany(x => x.Books)
+                .WithMany(b => b.Authors);
         }
     }
 }
