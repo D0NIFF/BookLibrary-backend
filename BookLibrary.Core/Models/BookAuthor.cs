@@ -21,6 +21,8 @@ namespace BookLibrary.Core.Models
 
         public string? LastName { get; }
 
+        public ICollection<Book> Books { get; }
+
         public DateTime CreatedAt { get; }
 
         public static (BookAuthor BookAuthor, string Error) Create(Guid id, string? firstName, string? lastName)

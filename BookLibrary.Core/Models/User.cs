@@ -22,6 +22,9 @@
 
         public string? PasswordHash { get; }
 
+        public ICollection<FavoriteGroup> FavoriteGroups { get; }
+        public ICollection<Favorite> Favorites { get; }
+
         public DateTime? CreatedAt { get; } = DateTime.Now;
         public DateTime? UpdatedAt { get; } = DateTime.Now;
         public DateTime? DeletedAt { get; }

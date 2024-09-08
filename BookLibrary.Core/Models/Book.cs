@@ -32,6 +32,10 @@
 
         public BookCategory? Category { get; }
 
+        public ICollection<BookAuthor>? Author { get; }
+
+        public ICollection<Favorite>? Favorites { get; }
+
         public DateOnly ReleaseDate { get; }
 
         public DateTime CreatedAt { get; } = DateTime.Now;

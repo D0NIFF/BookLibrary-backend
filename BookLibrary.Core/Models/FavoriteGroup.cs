@@ -23,6 +23,8 @@ namespace BookLibrary.Core.Models
 
         public User? User { get; }
 
+        public ICollection<Favorite>? Favorites { get; }
+
         public DateTime? CreatedAt { get; } = DateTime.Now;
         public DateTime? UpdatedAt { get; } = DateTime.Now;
 

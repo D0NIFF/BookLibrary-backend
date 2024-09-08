@@ -15,6 +15,8 @@
 
         public string? Name { get; }
 
+        public ICollection<Book>? Books { get; set; }
+
         public DateTime CreatedAt { get; }
 
         public static (BookCategory BookCategory, string Error) Create(Guid id, string? name)
