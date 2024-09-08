@@ -25,27 +25,18 @@ namespace BookLibrary.Database.Configurations
                 .IsRequired();
 
             builder
-                .HasOne(c => c.Category)
-                .WithOne(b => b.Category)
-                .HasForeignKey(c => c.Category.Id)
-            builder.Property(b => b.CategoryId)
-                .IsRequired();
-        }
-    }
+                .HasOne(b => b.Category)
+                .WithMany(c => c.Books)
+                .HasForeignKey(b => b.CategoryId);
 
-    public class UserConfiguration : IEntityTypeConfiguration<UserEntity>
-    {
-        public void Configure(EntityTypeBuilder<UserEntity> builder)
-        {
-            builder.HasKey(x => x.Id);
+            builder
+                .HasMany(b => b.Authors)
+                .WithMany(a => a.Books);
 
-            builder.Property(u => u.Nickname)
-                .HasMaxLength(User.MAX_NAME_LENGTH)
-                .IsRequired();
-
-            builder.Property(u => u.Email)
-                .HasMaxLength(BookCategory.MAX_NAME_LENGTH)
-                .IsRequired();
+            builder
+                .HasMany(b => b.Favorites)
+                .WithOne(f => f.Book)
+                .HasForeignKey(f => f.BookId);
         }
     }
 }
