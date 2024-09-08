@@ -14,7 +14,7 @@ namespace BookLibrary.Domain
         public DbSet<BookCategoryEntity> BookCategories { get; set; }
         public DbSet<BookAuthorEntity> BookAuthors { get; set; }
         public DbSet<BookEntity> Books { get; set; }
-        public DbSet<BookOnAuthor> BooksOnAuthors { get; set; }
+        // public DbSet<BookOnAuthorEntity> BooksOnAuthors { get; set; }
         public DbSet<UserEntity> Users { get; set; }
         public DbSet<FavoriteGroupEntity> FavoriteGroups { get; set; }
         public DbSet<FavoriteEntity> Favorites { get; set; }
