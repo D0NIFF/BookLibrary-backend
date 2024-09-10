@@ -15,11 +15,14 @@ namespace BookLibrary.API
                 {
                     options.UseNpgsql(configuration.GetConnectionString(nameof(BookLibraryDBContext)));
                 });
+            builder.Services.AddControllers();
+            builder.Services.AddEndpointsApiExplorer();
 
             var app = builder.Build();
 
-
-            app.MapGet("/", () => "Hello World!");
+            app.UseHttpsRedirection();
+            app.UseAuthorization();
+            app.MapControllers();
 
             app.Run();
         }
