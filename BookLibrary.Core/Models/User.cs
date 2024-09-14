@@ -29,7 +29,7 @@
         public DateTime? UpdatedAt { get; } = DateTime.Now;
         public DateTime? DeletedAt { get; }
 
-        public static (User User, string Error) Create(Guid id, string? nickname, string? email, string passwordHash)
+        public static (User user, string Error) Create(Guid id, string? nickname, string? email, string passwordHash)
         {
             var error = string.Empty;
 

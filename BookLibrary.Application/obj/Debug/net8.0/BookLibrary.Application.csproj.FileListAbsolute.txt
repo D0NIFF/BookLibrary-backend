@@ -10,3 +10,9 @@ C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.
 C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\refint\BookLibrary.Application.dll
 C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibrary.Application.pdb
 C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\ref\BookLibrary.Application.dll
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\bin\Debug\net8.0\BookLibrary.Core.dll
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\bin\Debug\net8.0\BookLibrary.Database.dll
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\bin\Debug\net8.0\BookLibrary.Database.pdb
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\bin\Debug\net8.0\BookLibrary.Core.pdb
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibrary.Application.csproj.AssemblyReference.cache
+C:\Users\doniff\source\repos\BookLibrary\BookLibrary.Application\obj\Debug\net8.0\BookLibr.7A31D052.Up2Date
